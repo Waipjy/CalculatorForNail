@@ -301,7 +301,7 @@ export default function App() {
 
     if (lines.length === 0) return "尚未選擇項目";
 
-    let text = `✦ 梨語美甲 施作明細 ✦\n\n${lines.join('\n')}`;
+    let text = `✦ 梨語美甲 施作明細 test ✦\n\n${lines.join('\n')}`;
     
     if (appliedModifiers.length > 0) {
       text += `\n\n小計: $${subtotal}`;
